@@ -1,0 +1,409 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            as="style"
+            onload="this.rel='stylesheet'"
+            href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+<div class="relative flex size-full min-h-screen flex-col bg-[#1a1a1a] dark group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#363636] px-10 py-3">
+            <div class="flex items-center gap-4 text-white">
+                <div class="size-4">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                                fill="currentColor"
+                        ></path>
+                    </svg>
+                </div>
+                <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Resume</h2>
+            </div>
+            <div class="flex flex-1 justify-end gap-8">
+                <div class="flex items-center gap-9">
+                    <a class="text-white text-sm font-medium leading-normal" href="#">About</a>
+                    <a class="text-white text-sm font-medium leading-normal" href="#">Skills</a>
+                    <a class="text-white text-sm font-medium leading-normal" href="#">Experience</a>
+                    <a class="text-white text-sm font-medium leading-normal" href="#">Education</a>
+                    <a class="text-white text-sm font-medium leading-normal" href="#">Projects</a>
+                </div>
+                <button
+                        class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#363636] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+                >
+                    <div class="text-white" data-icon="Printer" data-size="20px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                            <path
+                                    d="M214.67,72H200V40a8,8,0,0,0-8-8H64a8,8,0,0,0-8,8V72H41.33C27.36,72,16,82.77,16,96v80a8,8,0,0,0,8,8H56v32a8,8,0,0,0,8,8H192a8,8,0,0,0,8-8V184h32a8,8,0,0,0,8-8V96C240,82.77,228.64,72,214.67,72ZM72,48H184V72H72ZM184,208H72V160H184Zm40-40H200V152a8,8,0,0,0-8-8H64a8,8,0,0,0-8,8v16H32V96c0-4.41,4.19-8,9.33-8H214.67c5.14,0,9.33,3.59,9.33,8Zm-24-52a12,12,0,1,1-12-12A12,12,0,0,1,200,116Z"
+                            ></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+            <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                <div class="flex p-4 @container">
+                    <div class="flex w-full flex-col gap-4 items-center">
+                        <div class="flex gap-4 flex-col items-center">
+                            <div
+                                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                                    style='background-image: url("https://media.licdn.com/dms/image/v2/D5603AQG3ygFg0nHruw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692198624937?e=1756944000&v=beta&t=6g2tQ2md2jcjeyM_luaL_rYPr8jN30YWIMLZDoUjU6g");'
+                            ></div>
+                            <div class="flex flex-col items-center justify-center justify-center">
+                                <p class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Vamshi Adi</p>
+                                <p class="text-[#adadad] text-base font-normal leading-normal text-center">Backend Engineer</p>
+                                <div class="flex items-center gap-4 mt-2">
+                                    <!-- Email -->
+                                    <a href="mailto:vamshi@example.com" class="text-[#adadad] hover:text-white" title="Email">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5A2.25 2.25 0 012.25 17.25V6.75m19.5 0l-9.75 6-9.75-6" />
+                                        </svg>
+                                    </a>
+
+                                    <!-- LinkedIn -->
+                                    <a href="https://linkedin.com/in/adivamshi" class="text-[#adadad] hover:text-white" target="_blank" title="LinkedIn">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                    d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.5c.73-1.06 2.26-1.5 3.5-1.5 2.21 0 4 1.79 4 4v6z" />
+                                        </svg>
+                                    </a>
+
+                                    <!-- GitHub -->
+                                    <a href="https://github.com/adivamshi" class="text-[#adadad] hover:text-white" target="_blank" title="GitHub">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.8-1.4-3.8-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.6.1-.6.1-.6 1.1.1 1.7 1.2 1.7 1.2 1 .1 1.5-.8 1.7-1.2.1-.8.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.6-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.7 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.8 5.5-5.4 5.8.4.4.8 1.1.8 2.3v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Summary</h2>
+                <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+                    A highly motivated and skilled Backend Engineer with 5+ years of experience in designing, developing, and maintaining robust and scalable server-side applications.
+                    Proven ability to work effectively in agile environments, collaborate with cross-functional teams, and deliver high-quality solutions that meet business goals.
+                    Passionate about staying up to date with the latest technologies and continuously improving technical skills.
+                </p>
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Skills</h2>
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="Code" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Programming Languages</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">Go, Java, JavaScript, Python, TypeScript, SQL</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="Database" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Databases</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">CassandraDB, DynamoDB, MySQL, PostgreSQL</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="Database" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Backend Frameworks</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">Vert.x, Gin, Chi, FastApi, Flask, Node.js</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="GitCommit" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M248,120H183.42a56,56,0,0,0-110.84,0H8a8,8,0,0,0,0,16H72.58a56,56,0,0,0,110.84,0H248a8,8,0,0,0,0-16ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Tools</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">Docker, AWS, Jenkins, Git</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Experience</h2>
+
+                <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+
+                    <!-- Timeline start -->
+                    <div class="flex flex-col items-center gap-1 pt-3">
+                        <div class="text-white" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="w-[1.5px] bg-[#4d4d4d] h-full grow"></div>
+                    </div>
+                    <!-- Company Block -->
+                    <div class="flex flex-1 flex-col py-3">
+                        <p class="text-white text-base font-medium leading-normal">Technoval Alliance</p>
+                        <p class="text-[#adadad] text-base font-normal leading-normal">Mar 2023 - Present · 2 yrs 5 mos</p>
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Senior Software Developer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">American Express · Contract</p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Apr 2024 – Present · 1 yr 4 mos</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Contributed to migrating payment specifications from a mainframe-based global authorization network to a modern system using Java and Vert.x, enhancing system performance, reliability, auditability, and traceability.</li>
+                                <li>Applied Test-Driven Development (TDD) practices extensively to enhance code quality and reliability, contributing to the successful deployment of critical payment functionalities in a high-availability environment.</li>
+                                <li>Conducted a comprehensive feasibility study for migrating the serverless backend to GCP, analyzing potential gains in scalability and performance.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> Java · Vert.x · Software Development · REST APIs · Couchbase · Cassandra · Server Side · Test Driven Development</p>
+                        </div>
+
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Senior Software Engineer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Vitel Global · Contract</p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Mar 2023 – Apr 2024 · 1 yr 1 mo</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Engineered robust back-end services in Go and developed dynamic UI components with React.</li>
+                                <li>Pioneered custom authorizers and identity services, significantly improving security posture and streamlining authorization processes.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong>Go (Programming Language) · AWS Lambda · Amazon Web Services (AWS) · Amazon Dynamodb · Node.js · Software Design · Software Development · Java · Identity and Access Management (IAM)</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline start -->
+                    <div class="flex flex-col items-center gap-1 pt-3">
+                        <div class="text-white" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="w-[1.5px] bg-[#4d4d4d] h-full grow"></div>
+                    </div>
+                    <!-- Company Block -->
+                    <div class="flex flex-1 flex-col py-3">
+                        <p class="text-white text-base font-medium leading-normal">Borderfree Technology</p>
+                        <p class="text-[#adadad] text-base font-normal leading-normal">Apr 2020 - Aug 2021 · 1 yrs 5 mos · Hyderabad, India</p>
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Lead Software Developer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Jan 2021 – Aug 2021 · 8 mos</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Directed a team of 6 developers to design and deploy a React Native mobile application, achieving successful launches on both the App Store and Google Play Store.</li>
+                                <li>Orchestrated the development of SDKs, including a TV SDK for Sling/Dish Networks integration, enhancing media streaming services.</li>
+                                <li>Developed a proof of concept integrating gRPC and GraphQL to evaluate compatibility and performance within the serverless architecture, ensuring scalability and efficiency.</li>
+                                <li>Led the development of a B2B portal using ReactJS and Go within a serverless environment, optimizing for performance and scalability.</li>
+                                <li>Conducted a comprehensive feasibility study for migrating the serverless backend to GCP, analyzing potential gains in scalability and performance.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> React.js · Amazon Web Services (AWS) · AWS Lambda · Software Development · Software Design · Amazon DynamoDB · Go (Programming Language) · Node.js · Engineering · Containerization · SDLC · Systems Design · React Native</p>
+                        </div>
+
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Senior Software Engineer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Apr 2020 – Dec 2020 · 9 mos</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Spearheaded the end-to-end development of a dynamic wallet application using React Native, supported by robust RESTful APIs built in Go.</li>
+                                <li>Architected and implemented a custom authorizer integrated into a serverless AWS-based workflow to manage secure access control.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> React.js · Amazon Web Services (AWS) · AWS Lambda · Software Development · Mobile Applications · Software Design · React Native · Amazon DynamoDB · Go (Programming Language) · Node.js · Low Latency · High Availability (HA) · API Gateways · Serverless Computing · Microservices</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center gap-1 pt-3">
+                        <div class="text-white">
+                            <!-- Briefcase Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="w-[1.5px] bg-[#4d4d4d] h-2 grow"></div>
+                    </div>
+                    <div class="flex flex-1 flex-col py-3">
+                        <h3 class="text-white text-base font-medium leading-normal">Senior Software Engineer</h3>
+                        <p class="text-white text-base font-medium leading-normal"><strong>Newsplus</strong></p>
+                        <p class="text-white text-[#adadad]">Oct 2018 – Mar 2020 · 1 yr 6 mos · Hyderabad, India</p>
+                        <ul class="text-white text-base font-normal leading-normal list-disc pl-8 pr-4 pt-1 space-y-1">
+                            <li>Assumed ownership of a critical feature responsible for clustering similar news articles in near real-time from a continuous stream of data. The generated clusters play a pivotal role in powering essential product features, including notifications, feed generation and ranking, personalized content delivery, and identification of top stories. Developed and deployed this feature as a high-performance microservice written in Python.</li>
+                            <li>Innovatively leveraged Firebase to streamline notification delivery across multiple mobile platforms. Orchestrated the implementation of Firebase on both client and server sides, resulting in a remarkable reduction in notification delivery latency and coupled with advancements in clustering ultimately boosting app engagement by an impressive 400%.</li>
+                            <li>Experimented with various clustering algorithms such as K-Means, DBSCAN, HDBSCAN, and Encoding Algorithms like Doc2Vec, Word2Vec, and TFIDF including other libraries part of Gensim and SKLearn.</li>
+                        </ul>
+                        <p class="text-[#adadad] text-base font-normal leading-normal pt-2 px-4">
+                            <strong>Skills:</strong> Natural Language Processing (NLP) · Java · Flask · HBase · JavaScript · Linode · Amazon Web Services (AWS) · Python · Microservices · Machine Learning · Software Development · Mobile Applications · Software Design · Google Cloud Platform (GCP) · Unsupervised Learning
+                        </p>
+                    </div>
+                    <!-- Timeline start -->
+                    <div class="flex flex-col items-center gap-1 pt-3">
+                        <div class="text-white" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="w-[1.5px] bg-[#4d4d4d] h-full grow"></div>
+                    </div>
+                    <!-- Company Block -->
+                    <div class="flex flex-1 flex-col py-3">
+                        <p class="text-white text-base font-medium leading-normal">Kony, Inc.</p>
+                        <p class="text-[#adadad] text-base font-normal leading-normal">Dec 2014 – Sep 2018 · 3 yrs 10 mos · Hyderabad, India</p>
+
+                        <!-- Role 1 -->
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Senior Software Engineer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Jun 2017 – Sep 2018 · 1 yrs 4 mos</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Assumed full ownership of the Authentication component across multiple products, ensuring secure and seamless user authentication experiences.</li>
+                                <li>Designed and developed a versatile framework enabling efficient binary file transfer between client and server, seamlessly compatible across multiple cloud providers.</li>
+                                <li>Engineered and optimized support solutions for high-value customers, focusing on technical de-escalation and enhanced system performance.</li>
+                                <li>Earned 2 prestigious Team Excellence Awards for outstanding contributions to Major Release 8.2 and for providing exceptional support to high-value customers, showcasing dedication and exceptional performance.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> Node.js · JavaScript · Objective C · Software Development · REST APIs · Mobile Applications · Software Design · Java · SDKs · OAuth · Single Sign-On (SSO) · Foreign Function Interface (FFIs) · Geofencing</p>
+                        </div>
+
+                        <!-- Role 2 -->
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Software Development Engineer</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Jun 2015 – Jun 2017 · 2 yrs 1 mo</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Successfully developed and implemented Object Services, a feature-rich REST-based SDK with comprehensive support for OData filters and other object-related operations. This SDK empowered efficient manipulation of ORM objects defined on the server (Kony Fabric), significantly enhancing the functionality and versatility of the system.</li>
+                                <li>Led efforts to enhance and revamp the Authentication workflow throughout the product, enabling OAuth 2.0 Login, on-device token management, and support for multiple sessions. These improvements ensured seamless and secure user authentication experiences, enhancing the product's functionality and user satisfaction.</li>
+                                <li>Honored with an Individual Excellence Award for successfully resolving critical release blockers and ensuring the smooth delivery of Object Services. Additionally, received a Team Excellence Award for exemplary collaboration and contributions in achieving project goals.</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> Java · Node.js · JavaScript · Objective C · REST APIs · PostgreSQL · Jenkins</p>
+                        </div>
+
+                        <!-- Role 3 -->
+                        <div class="pt-3 px-4">
+                            <p class="text-white text-base font-medium leading-normal"><strong>Associate Software Developer · Intern</strong></p>
+                            <p class="text-[#adadad] text-base font-normal leading-normal">Dec 2014 – Jun 2015 · 7 mos</p>
+                            <ul class="list-disc list-inside text-white text-base font-medium leading-normal">
+                                <li>Contributed to Kony, Inc.'s App Foundation Team, specializing in dynamic app generation, sync functionality, and multi-tenant cloud solutions</li>
+                                <li>Developed and maintained features related to app generation, synchronization, and cloud infrastructure, ensuring seamless performance and scalability</li>
+                            </ul>
+                            <p class="text-[#adadad] text-base font-normal leading-normal"><strong>Skills:</strong> Java · Node.js · JUnit · Objective C · Mobile Applications · JavaScript · Maven</p>
+                        </div>
+                    </div>
+
+                    <!-- Co-Founder Job Entry -->
+                    <div class="flex flex-col items-center gap-1 pb-3">
+                        <div class="w-[1.5px] h-2"></div>
+                        <div class="text-white">
+                            <!-- Briefcase Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 flex-col py-3">
+                        <h3 class="text-white text-base font-medium leading-normal">Co-Founder</h3>
+                        <p class="text-white text-base font-medium leading-normal"><strong>CustomBuild</strong> · Self-employed</p>
+                        <p class="text-white text-[#adadad]">Dec 2012 – Jun 2014 · 1 yr 7 mos · Hyderabad, India</p>
+                        <ul class="text-white text-base font-normal leading-normal list-disc pl-8 pr-4 pt-1 space-y-1">
+                            <li>Developed and deployed projects for clients in Healthcare and Academic domains.</li>
+                            <li>Designed prototypes and proof of concepts to determine the viability and outreach in the market.</li>
+                            <li>Used Python, Django, Node.js, MySQL, and C# to build full-stack and IoT solutions, deployed on-premise.</li>
+                        </ul>
+                        <p class="text-[#adadad] text-base font-normal leading-normal pt-2 px-4">
+                            <strong>Skills:</strong> Node.js · MongoDB · Python · MySQL · C#
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Education</h2>
+                <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+                    <div class="flex flex-col items-center gap-1 pt-3 pb-3">
+                        <div class="text-white" data-icon="GraduationCap" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 flex-col py-3">
+                        <p class="text-white text-base font-medium leading-normal">Master of Science in Data Science <span class="text-[#adadad]">· 2021 - 2023</span></p>
+                        <p class="text-[#adadad] text-base font-normal leading-normal">University of Buffalo (SUNY) · Buffalo NY</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+                    <div class="flex flex-col items-center gap-1 pt-3 pb-3">
+                        <div class="text-white" data-icon="GraduationCap" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 flex-col py-3">
+                        <p class="text-white text-base font-medium leading-normal">Bachelor of Technology in Computer Science and Engineering <span class="text-[#adadad]">· 2011 - 2015</span></p>
+                        <p class="text-[#adadad] text-base font-normal leading-normal">Jawaharlal Nehru Technological University · Hyderabad India</p>
+                    </div>
+                </div>
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Projects</h2>
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="Code" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Personal Portfolio Website</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">
+                                Developed a responsive portfolio website using React and Node.js to showcase my skills and projects.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-1 gap-3 rounded-lg border border-[#4d4d4d] bg-neutral-800 p-4 flex-col">
+                        <div class="text-white" data-icon="Code" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path
+                                        d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-base font-bold leading-tight">Open Source Contribution</h2>
+                            <p class="text-[#adadad] text-sm font-normal leading-normal">
+                                Contributed to a popular open-source project on GitHub, focusing on improving performance and adding new features.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
